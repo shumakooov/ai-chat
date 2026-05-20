@@ -1,0 +1,12 @@
+:root {
+  color: white;
+  background: #072e6a;
+  font-family: 'San Francisco', sans-serif;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

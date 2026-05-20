@@ -1,0 +1,97 @@
+.wrapper {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 48px;
+    background-color: #072e6a;
+    padding: 20px 0;
+}
+
+.inputContainer {
+    min-width: 620px;
+    max-width: 820px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #1d4c9a;
+    border-radius: 15px;
+    margin-top: auto;
+    background-color: #072e6a;
+}
+
+.inputField {
+    width: 100%;
+    height: 48px;
+    border: none;
+    padding: 0;
+    caret-color: white;
+    color: white;
+    font-size: 18px;
+    background-color: #072e6a;
+}
+
+.inputField::placeholder {
+  color: #8cace2;
+  font-size: 18px;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.inputField:focus::placeholder {
+  color: transparent;
+}
+
+.micButton {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px 0 0 12px;
+    border: none;
+    background-color: #072e6a;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.micButton.recording {
+    background-color: #ff4444;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.micIcon {
+    width: 28px;
+    height: 28px;
+}
+
+.sendButton {
+    width: 50px;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    background-color: #1d4c9a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background-color: #2a5bc9;
+}
+
+.sendIcon {
+    width: 16px;
+    height: 16px;
+    padding-left: 2px;
+}

@@ -1,0 +1,19 @@
+.icon {
+    margin-bottom: 30px;
+    width: 48px;
+    height: 48px;
+    background-color: #1e4b9d;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconImage {
+    width: 24px;
+    height: 24px;
+}
+
+.greeting > p {
+    color: #8cace2;
+}
